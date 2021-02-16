@@ -11,7 +11,7 @@ if ($ENV:APPVEYOR_REPO_BRANCH -eq 'master' -and [string]::IsNullOrWhiteSpace($EN
     }
     $auth = 'Basic ' + [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes($env:GH_KEY + ':x-oauth-basic'))
     $releaseParams = @{
-        Uri         = 'https://api.github.com/repos/jandedobbeleer/oh-my-posh/releases'
+        Uri         = 'https://api.github.com/repos/jandedobbeleer/oh-my-posh2/releases'
         Method      = 'POST'
         Headers     = @{
             Authorization = $auth

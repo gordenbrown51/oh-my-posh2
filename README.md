@@ -23,8 +23,6 @@ Given that [V3][v3] is entirely different under the hood, it's hosted [separatel
 From a user perspective, it should give the same experience out-of-the-box, with the added advantage
 that custom themes are a first class, no code citizen.
 
-Right now, [V3][v3] is in beta, and you can install it the same way you're used to if you want to give it a spin.
-
 ```powershell
 Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
 ```
@@ -311,12 +309,12 @@ if($env:LC_TERMINAL -eq "iTerm2") {
 - [Chris Benti][chrisbenti-psconfig]
 - [Keith Dahlby][keithdahlby-poshgit]
 
-[build-status-badge]: https://img.shields.io/appveyor/ci/janjoris/oh-my-posh/master.svg?maxAge=2592000
-[build-status]: https://ci.appveyor.com/project/JanJoris/oh-my-posh
-[travis-build-status-badge]: https://travis-ci.org/JanDeDobbeleer/oh-my-posh.svg?branch=master
-[travis-build-status]: https://travis-ci.org/JanDeDobbeleer/oh-my-posh
-[coverage-status-badge]: https://coveralls.io/repos/github/JanDeDobbeleer/oh-my-posh/badge.svg
-[coverage-status]: https://coveralls.io/github/JanDeDobbeleer/oh-my-posh
+[build-status-badge]: https://img.shields.io/appveyor/ci/janjoris/oh-my-posh2/master.svg?maxAge=2592000
+[build-status]: https://ci.appveyor.com/project/JanJoris/oh-my-posh2
+[travis-build-status-badge]: https://travis-ci.org/JanDeDobbeleer/oh-my-posh2.svg?branch=master
+[travis-build-status]: https://travis-ci.org/JanDeDobbeleer/oh-my-posh2
+[coverage-status-badge]: https://coveralls.io/repos/github/JanDeDobbeleer/oh-my-posh2/badge.svg
+[coverage-status]: https://coveralls.io/github/JanDeDobbeleer/oh-my-posh2
 [gitter-badge]: https://badges.gitter.im/oh-my-posh/Lobby.svg
 [gitter]: https://gitter.im/oh-my-posh/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [psgallery-badge]: https://img.shields.io/powershellgallery/dt/oh-my-posh.svg
@@ -363,6 +361,6 @@ if($env:LC_TERMINAL -eq "iTerm2") {
 [img-theme-zash]: img/zash.png
 [img-theme-emodipt]: img/emodipt.png
 [img-theme-operator]: img/operator.png
-[consoletitle]: https://github.com/JanDeDobbeleer/oh-my-posh/issues/261#issuecomment-649701607
+[consoletitle]: https://github.com/JanDeDobbeleer/oh-my-posh2/issues/261#issuecomment-649701607
 [v3]: https://github.com/JanDeDobbeleer/oh-my-posh3
 [docs-v3]: https://ohmyposh.dev
